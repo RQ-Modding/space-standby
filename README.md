@@ -25,7 +25,7 @@ No `on_select_key` → engine never claims Space (Cancel unchanged).
 
 ## Needs
 
-1. Fork with `rq.battle.*` (install, on_select_key, actor helpers)
+1. Fork with `rq.battle.*` that **executes** the claimed skill via pending `@exec` (not Cancel remap only)
 2. `rqmod\apply.ps1` → Magnum Mods only (never Magnum play)
 
 Local-only git. No remote.
