@@ -1,0 +1,8 @@
+{
+  "id": "space-standby",
+  "name": "Space Standby",
+  "author": "Magnum Mods",
+  "version": "1.0.0",
+  "loader": "0.2.0",
+  "priority": 0
+}
