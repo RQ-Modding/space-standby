@@ -5,7 +5,7 @@
 rq.log("Space → Standby (384) when equipped+usable; else Cancel")
 
 if not rq.battle.install() then
-  error("space-standby: rq.battle.install failed (see mods/rqmod.log)")
+  error("space-standby: rq.battle.install failed (see logs/rqmod.log)")
 end
 
 rq.battle.on_select_key(function(ctx)

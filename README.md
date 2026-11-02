@@ -32,7 +32,7 @@ Local-only git. No remote.
 
 ## Test
 
-1. Magnum Mods boot: console / `mods\rqmod.log` shows `[space-standby]` and battle install log.
+1. Magnum Mods boot: console / `logs\rqmod.log` shows `[space-standby]` and battle install log.
 2. Ally with Standby equipped + uses left → Space → Standby log / turn ends; uses decrement.
 3. Unequipped or 0 uses → Space still Cancel (cursor jump).
 4. RMB Cancel, Auto (`A`), Surrender (`.`), Swap (`P`) unchanged.
