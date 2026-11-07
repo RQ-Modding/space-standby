@@ -29,7 +29,7 @@ Other mods that claim keys in skill select: each runs in load order until one pi
 
 ## Install
 
-Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **1.0.0** or newer. Extract the
+Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **1.15.0** or newer. Extract the
 release zip into the game's `mods` folder, so that you have `mods/space-standby/mod.json`.
 
 ## How it works
@@ -37,9 +37,10 @@ release zip into the game's `mods` folder, so that you have `mods/space-standby/
 ```lua
 rq.battle.install()
 rq.battle.on_select_key(function(ctx)
-  if ctx.key ~= 32 then return nil end              -- Space
+  if ctx.key ~= 32 then return nil end  -- Space
   local a = rq.battle.actor()
-  if a and rq.battle.skill_usable(a, 384) then return 384 end  -- 384: Standby
+  local standby = rq.ids.skill.STANDBY  -- 384
+  if a and rq.battle.skill_usable(a, standby) then return standby end
 end)
 ```
 

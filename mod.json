@@ -3,7 +3,7 @@
   "id": "space-standby",
   "name": "Space Standby",
   "author": "Magnum Mods",
-  "version": "1.0.0",
-  "loader": "1.0.0",
+  "version": "1.0.1",
+  "loader": "1.15.0",
   "priority": 0
 }
