@@ -1,4 +1,5 @@
 {
+  "$schema": "https://rq-modding.github.io/rq-modding-docs/schemas/mod.schema.json",
   "id": "space-standby",
   "name": "Space Standby",
   "author": "Magnum Mods",
