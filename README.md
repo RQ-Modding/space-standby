@@ -2,6 +2,10 @@
 
 In a fight, **Space** uses **Standby** for the character who is choosing a skill.
 
+## Showcase
+
+<img width="1270" height="950" alt="ezgif com-optimize" src="https://github.com/user-attachments/assets/8515f3e7-893f-4b58-9bc6-b089ceef765d" />
+
 ## What it changes
 
 | In the game | With this mod |
