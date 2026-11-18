@@ -16,7 +16,7 @@ ally's turn with Standby.
 2. Standby unequipped or at 0 uses: Space is Cancel, as in the game (the cursor jumps).
 3. Right click, `A` (Auto), `.` (Surrender) and `P` (Swap) are unchanged.
 
-## Test Lab
+## Tested in the game
 
-`agent-lab.ps1 run standby`: with Standby at 0 uses, Space leaves the turn alone and
+The Test Lab's scenario `standby`: with Standby at 0 uses, Space leaves the turn alone and
 `rq.battle.skill_usable` says false; with uses, Space takes Standby once.
